@@ -1,3 +1,29 @@
-div {
-    border: 1px solid black; 
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-weight: normal;
+    vertical-align: baseline;
+    background: transparent;
 }
+
+.header {
+    display: flex;
+    padding: 10px;   
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.heading {
+    font-size: 50px;
+    font-family: "nunito", "sans-serif";
+    margin: 0px;
+    margin: auto;
+}
+
+
+
