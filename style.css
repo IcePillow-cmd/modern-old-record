@@ -8,9 +8,6 @@ body {
     font-weight: normal;
     vertical-align: baseline;
     background: transparent;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
 }
 
 .header {
@@ -25,6 +22,12 @@ body {
     font-family: "nunito", "sans-serif";
     margin: 0px;
     margin: auto;
+}
+
+.track-container {
+    display: flex;
+    /*flex-direction: column;*/
+    height: 100%;
 }
 
 .reel-container {
@@ -42,7 +45,7 @@ body {
     border: 2px solid black;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    gap: 10px;
     align-items: center;
 }
 
@@ -53,5 +56,10 @@ body {
     border-radius: 10%;
 }
 
-
-
+.track-info {
+    border: 2px solid black; 
+    border-radius: 10px;
+    width: 30vw;
+    height: 30vw;
+    margin: 50px;
+}
