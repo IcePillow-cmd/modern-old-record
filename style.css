@@ -24,6 +24,12 @@ body {
     margin: auto;
 }
 
+.logo {
+    height: 100%;
+    width: auto;
+    filter: invert();
+}
+
 .track-container {
     display: flex;
     /*flex-direction: column;*/
@@ -62,4 +68,40 @@ body {
     width: 30vw;
     height: 30vw;
     margin: 50px;
+}
+
+.footer {
+    height: 182px;
+    border-top: 2px solid black;
+    margin-top: 22px;
+}
+
+.flex-float {
+    
+}
+
+.float-player {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 750px;
+    height: 150px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+}
+
+.track-player {
+    border-bottom: 2px solid black;
+    height: 70%;
+}
+
+.author-info {
+    height: 30%;
+    background-color: aliceblue;
+    border-radius: 0px 0px 10px 10px;
 }
